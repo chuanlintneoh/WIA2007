@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.navigationbar.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.example.navigationbar.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.navigationbar.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/constraintLayoutFragment"
+        android:name="com.example.navigationbar.ConstraintLayoutFragment"
+        android:label="fragment_constraint_layout"
+        tools:layout="@layout/fragment_constraint_layout" />
+    <fragment
+        android:id="@+id/linearLayoutFragment"
+        android:name="com.example.navigationbar.LinearLayoutFragment"
+        android:label="fragment_linear_layout"
+        tools:layout="@layout/fragment_linear_layout" />
+    <fragment
+        android:id="@+id/relativeLayoutFragment"
+        android:name="com.example.navigationbar.RelativeLayoutFragment"
+        android:label="fragment_relative_layout"
+        tools:layout="@layout/fragment_relative_layout" />
+    <fragment
+        android:id="@+id/tableLayoutFragment"
+        android:name="com.example.navigationbar.TableLayoutFragment"
+        android:label="fragment_table_layout"
+        tools:layout="@layout/fragment_table_layout" />
+</navigation>
