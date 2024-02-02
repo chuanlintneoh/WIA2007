@@ -12,4 +12,4 @@ Navigation Bar - Bottom Navigation Bar, Constraint layout, Linear layout, Relati
 
 Room Persistence Setup - Lecture Notes (Data Storage Part 2: Database) using Room Persistence Library
 
-Recycler View - Recycler view, Drawer layout, Side Navigation Bar
+Recycler View - Recycler view, Drawer layout, Side Navigation Bar, Text view (autocomplete)
